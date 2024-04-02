@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3058214234959086049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3058071279743566972}
+  - component: {fileID: 690290903044872564}
+  m_Layer: 0
+  m_Name: Data_base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3058071279743566972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3058214234959086049}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &690290903044872564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3058214234959086049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c20a357a26feeb47a6265bbac457485, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - id: 0
+    name: Empty
+    img: {fileID: 21300000, guid: 4f033cdd2b09f9a43b139729d09d002c, type: 3}
+    combination: 0
+    item: {fileID: 0}
+  - id: 1
+    name: Coin
+    img: {fileID: 21300000, guid: 5d3c905fc2a7d477c9cb5c04c57e340b, type: 3}
+    combination: 1
+    item: {fileID: 2146346371655869569, guid: 591f1726f118a0d40b746e3606d263eb, type: 3}
+  - id: 2
+    name: Sword
+    img: {fileID: 21300000, guid: d9642dd320e8fd643b4cea6a02e54686, type: 3}
+    combination: 0
+    item: {fileID: 628912917744621005, guid: 76e0ab0827c42e244bb7e18c2127d3c1, type: 3}
+  - id: 3
+    name: Key
+    img: {fileID: 21300000, guid: 7269bc1783c2bd04db1dd2a94eb15afe, type: 3}
+    combination: 0
+    item: {fileID: 100282619247313491, guid: 2f298def159821f409c83fc8fc58988d, type: 3}
+  - id: 4
+    name: Shield
+    img: {fileID: 21300000, guid: 10879f0c505e7f844abfa0ebcd5d606b, type: 3}
+    combination: 0
+    item: {fileID: 170687758984697133, guid: 4f81683c90fcef746b0be94784a3b96b, type: 3}
+  - id: 5
+    name: HealthPotion
+    img: {fileID: 21300000, guid: 9f3d81f2b37bccc4798e9faf8a8c6239, type: 3}
+    combination: 1
+    item: {fileID: 2743005194065220275, guid: 72d8eead64633744eb20a275c6848d9d, type: 3}
+  - id: 6
+    name: BigHealthPotion
+    img: {fileID: 21300000, guid: 0fb3c7af2cf543e4db336e4fd02f581f, type: 3}
+    combination: 1
+    item: {fileID: 3542706300687216265, guid: 9ef0fe96e282f9c4b9abc31306f575f3, type: 3}
+  - id: 7
+    name: PeriodHealthPotion
+    img: {fileID: 21300000, guid: 024321f177697bc4b8c48ae295af1184, type: 3}
+    combination: 1
+    item: {fileID: 1630245471571356557, guid: 08b45aeb7ff435f4483be1e7c624f9f2, type: 3}
+  - id: 8
+    name: Armor
+    img: {fileID: 21300000, guid: d659f7396cd57754eba78763cf986c51, type: 3}
+    combination: 0
+    item: {fileID: 2298325615029022866, guid: 5aef5fba18662aa45b3c33f0fadf76d2, type: 3}
+  - id: 9
+    name: Helm
+    img: {fileID: 21300000, guid: eddb0f61210d2f4429ae92bc08d1b3ba, type: 3}
+    combination: 0
+    item: {fileID: 2332336937050829325, guid: 2ddd7afb7d5aa424cabf4ea67452d4fc, type: 3}
+  - id: 10
+    name: Bow
+    img: {fileID: 21300000, guid: f049b8f6e6c70664abce7e9de8fc5a5c, type: 3}
+    combination: 0
+    item: {fileID: 862497013880591132, guid: b4c13ec992c348a419503caa61bb088e, type: 3}
